@@ -3,10 +3,8 @@
  */
 public class Apilar {
 
-
     int max;
     int[] pila;
-
 
     public Apilar(int[] pila, int max) {
         this.pila = pila;
@@ -14,20 +12,19 @@ public class Apilar {
         this.pila = new int[max];
     }
 
-    public boolean add (){
-        boolean isAdded;
+    public boolean sumar (){
+        boolean estaSumado = false;
+        int i=0;
 
-        for(int i = 0 ; i< pila.length-1 ; i++){
-
-
-
+        while(i< pila.length-1){
+            if (pila[i].)
+            i++;
         }
 
 
 
-        return;
+        return estaSumado;
     }
-
 
 
 }
