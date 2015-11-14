@@ -47,6 +47,4 @@ public class Main {
 
 
     }
-//http://programacionparajava.blogspot.com.es/p/programas-sencillos-usando-estructura.html
-
 }
