@@ -11,17 +11,15 @@ public class Apilar {
     }
 
 
-    public boolean sumar (int valor){
+    public void agregar (int valor){
         if (tope == pila.length-1){
             System.out.println("\n - Pila Llena - ");
-            return false;
         }else{
             tope++;
             pila[tope] = valor;
-            return true;
         }
     }
-    public void restar() {
+    public void quitar() {
         if (tope == -1) {
             System.out.println("Pila Vacía");
 
